@@ -6,14 +6,23 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js"
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="           
     crossorigin="anonymous"></script>
+
+    <script src="./libs/jquery.js"></script>
+
     <script src="app.js"></script>
 </head>
 <body>
 	
-
+	<button class="setData">Click to save text</button>
+	<button class="getData">Click to get text</button>
+	<button class="displayAll">Click to display all snippets</button>
+	<br>
+	<div>Snippet Name</div>
 	<input class="textField" type="text" name="inputTextField">
-	<button class="submitForm">Click to save text</button>
-	<div class="debug"></div>
+	<br>
+	<div>Snippet</div>
+	<textarea class="textArea" rows="4" cols="50"></textarea>
+	<div class="display"></div>
     
 </body>
 </html>
