@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8" />
     <title>First Projects</title>
     <script src="https://code.jquery.com/jquery-3.3.1.js"
@@ -10,19 +12,51 @@
     <script src="./libs/jquery.js"></script>
 
     <script src="app.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 </head>
 <body>
+
+	<!-- <div class="page-container"> -->
+		<div class="left-half">
+			<div class="top-left">
+				<button class="setData">Click to save text</button>
+				<div class="snippetName">Snippet Name
+					<input class="textField" type="text" name="inputTextField">
+				</div>
+				<div>Snippet
+					<textarea class="textArea" rows="4" cols="50"></textarea>
+				</div>
+				<div class="displayRecent"></div>
+			</div>
+			<div class="bottom-left">
+				<button class="searchData">Click to search for snippet</button>
+				<div>Search By Snippet Name
+					<input class="searchField" type="text" name="inputSearchField">
+				</div>
+				<div class="displaySearch"></div>
+			</div>
+		</div>
+		<div class="right-half">
+			<button class="displayAll">Click to display all snippets</button>
+			<div class="displayAllArea"></div>
+		</div>
+	<!-- </div> -->
 	
-	<button class="setData">Click to save text</button>
-	<button class="getData">Click to get text</button>
-	<button class="displayAll">Click to display all snippets</button>
-	<br>
-	<div>Snippet Name</div>
-	<input class="textField" type="text" name="inputTextField">
-	<br>
-	<div>Snippet</div>
-	<textarea class="textArea" rows="4" cols="50"></textarea>
-	<div class="display"></div>
+	<!-- <button class="setData">Click to save text</button> -->
+	<!-- <button class="searchData">Click to search for snippet</button> -->
+	<!-- <button class="displayAll">Click to display all snippets</button> -->
+	<!-- <br> -->
+	<!-- <div>Snippet Name</div> -->
+	<!-- <input class="textField" type="text" name="inputTextField"> -->
+	<!-- <br> -->
+	<!-- <div>Search By Snippet Name</div>
+	<input class="searchField" type="text" name="inputSearchField"> -->
+	<!-- <br> -->
+	<!-- <div>Snippet</div>
+	<textarea class="textArea" rows="4" cols="50"></textarea> -->
+	<!-- <div class="display"></div> -->
     
 </body>
 </html>
