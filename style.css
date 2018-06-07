@@ -1,39 +1,52 @@
 body {
 	display: flex;
-    /*flex-wrap: wrap;*/
-	/*flex-direction: column;*/
-	font-family: 'Noto Sans', sans-serif;
 }
 
 .page-container {
 	display: flex;
-	/*justify-content: space-around;*/
-
+	background-color: #FFF4DE ;
+	width:1600px;
+	height: 1600px;
 }
 
 .left-half {
 	flex-direction: column;
-	justify-content: space-between;
+	width:50%;
+    height:100%;
 }
 
-/*.textField, .textArea {
-	justify-content: flex-start;
-}*/
-
 .top-left {
-	align-items: flex-start;
-	padding: 1rem 1rem 5rem 1rem;
+	padding: 2rem 5rem 1rem 8rem;
 }
 
 .bottom-left {
-	align-items: flex-end;
-	flex-direction: column;
-	padding: 5rem 1rem 1rem 1rem;
+	padding: 2rem 5rem 1rem 8rem;
 }
 
 .right-half {
-	justify-content: center;
+	padding: 2rem 1rem 1rem 15rem;
+	width:50%;
+    height:100%;
+}
+
+.setData, .searchData, .displayAll  {
+	background-color: #468A83;
+	color: #F3A044;
+	margin: 1rem 0rem;
+}
+
+.textField, .textArea, .searchField {
+	color: #468A83;
+	background-color:  #EEDFA8
+}
+
+.displayRecent, .displaySearch, .displayAllArea {
+	color: #468A83;
+}
+
+.snippetName {
+	padding: 1rem 0rem;
+	color: #468A83;
 }
 
 
-/*justify-content: flex-end;*/
